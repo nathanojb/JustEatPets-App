@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">JustEatPets</string>
+
+    <string name="main_menu_shoot_pet">Shoot pet</string>
+    <string name="main_mennu_pick_pet">Pet from list</string>
+    <string name="main_menu_your_pets">Your pets</string>
+    <string name="main_menu_settings">Settings</string>
+
 </resources>
