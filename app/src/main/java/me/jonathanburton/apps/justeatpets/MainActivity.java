@@ -81,16 +81,14 @@ public class MainActivity extends AppCompatActivity {
             File theImage = new File(Environment.getExternalStorageDirectory()
                     + "/Android/data/"
                     + getApplicationContext().getPackageName()
-                    + "/Files" + File.separator + "test.jpg");
+                    + "/Files" + File.separator + "temp.jpg");
 
-            Log.i(TAG, "Got image succesfully");
             try {
                 results = clarifai.recognize(new RecognitionRequest(theImage));
             }
 
             catch (Exception e) {
                 Log.i(TAG, "clarifi request caused exception");
-                Log.i(TAG, e.getMessage());
             }
 
 
